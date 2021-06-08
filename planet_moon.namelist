@@ -1,0 +1,18 @@
+&masses
+	primary_mass = 10000.0,
+	planet_mass_1 = 1000.0,
+	planet_mass_2 = 1.0,
+/
+&initial_conditions
+	initial_pos_1 = 200.0,1.5,
+	initial_pos_2 = 210.0,0.0,
+	initial_vel_1 = 0.0,7.0,
+	initial_vel_2 = 0.0,14.0,
+/
+&solution_parameters
+	final_time = 174.0,
+	n_steps = 50000
+/
+&output
+	output_file = 'planetmoon_results.dat'
+/

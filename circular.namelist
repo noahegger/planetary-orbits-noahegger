@@ -1,0 +1,18 @@
+&masses
+	primary_mass = 70.0,
+	planet_mass_1 = 2.0,
+	planet_mass_2 = 1.0,
+/
+&initial_conditions
+	initial_pos_1 = 2.0,0.0,
+	initial_pos_2 = -5.0,0.0,
+	initial_vel_1 = 0.0,6.0,
+	initial_vel_2 = 0.0,-3.8,
+/
+&solution_parameters
+	final_time = 800.0,
+	n_steps = 50000,
+/
+&output
+	output_file = 'circular_results.dat',
+/
